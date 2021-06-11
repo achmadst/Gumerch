@@ -125,7 +125,7 @@
 </a>
 </p>
 
-  * Link aplikasi (jika sudah di deploy)
+ 
 - Testing (Test cases)
   * Website ini memiliki beberapa skenario, yaitu:
     + Welcome Page: Pengguna akan diarahkan ke halaman welcome ketika membuka web, dari sini pengguna dapat menuju halaman register atau halaman login.
