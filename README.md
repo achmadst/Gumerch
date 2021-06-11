@@ -75,7 +75,7 @@
  
  <p align="center">
 <a>
-<img src="https://github.com/achmadst/Gumerch/blob/main/Untitled%20Diagram.png", width=600>
+<img src="https://github.com/achmadst/Gumerch/blob/main/erd%20(1).jpg", width=600>
 </a>
 </p>
 
