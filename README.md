@@ -6,13 +6,13 @@
   *	Asisten Praktikum	: Qoriatul Khairunnisa dan Indah Puspita
 
 - Nama anggota kelompok dan masing-masing role
-  *	Devi Auliasari | G54180008 | Front-End
-  *	Muhammad Al-Giffari | G54180056 | Back-End
-  *	Achmad Syarief Thalib | G54180059 | Project Manager dan Front-End
-  *	Rizki Nurul Amalia | G54180082 | UI/UX
+  *	Devi Auliasari | G54180008 | *Front-End*
+  *	Muhammad Al-Giffari | G54180056 | *Back-End*
+  *	Achmad Syarief Thalib | G54180059 | *Project Manager* dan *Front-End*
+  *	Rizki Nurul Amalia | G54180082 | *UI/UX*
 
 - Deskripsi singkat aplikasi
-  * Gumashop merupakan aplikasi e-commerce berbasis website yang digunakan untuk membantu proses penjualan dari proyek kerja Gumatika yaitu Gumashop. Gumashop dilengkapi dengan fitur jual-beli online, mulai dari pencarian produk, customer login, keranjang belanja, informasi kontak, dan lainnya.
+  * Gumashop merupakan aplikasi *e-commerce* berbasis *website* yang digunakan untuk membantu proses penjualan dari proyek kerja Gumatika yaitu Gumashop. Gumashop dilengkapi dengan fitur jual-beli online, mulai dari pencarian produk, customer login, keranjang belanja, informasi kontak, dan lainnya.
 - User analysis 
   * User story
     + 	Sebagai user (costumer) yang memiliki akun, agar dapat melihat produk yang dipilih , saya dapat menekan gambar "keranjang" di pojok halaman. 
@@ -91,13 +91,13 @@
     +	Pencarian
     +	Login
     +	Tambah Keranjang
-    +	Tulis Review
-    +	Checkout
+    +	Tulis *Review*
+    +	*Checkout*
   * Fungsi CRUD
-    +	Create : Tambahkan review, tambahkan keranjang
-    +	Read : Membaca Review, melihat detail produk, melihat list keranjang
-    +	Update : Mengubah jumlah produk
-    +	Delete : Menghapus produk dari keranjang
+    +	*Create* : Tambahkan *review*, tambahkan keranjang
+    +	*Read* : Membaca *Review*, melihat detail produk, melihat list keranjang
+    +	*Update* : Mengubah jumlah produk
+    +	*Delete* : Menghapus produk dari keranjang
 
 - Hasil implementasi 
   * Screenshot sistem
@@ -127,10 +127,40 @@
 
   * Link aplikasi (jika sudah di deploy)
 - Testing (Test cases)
-  * Positive Cases
-  * Negative Cases (Optional, jika ada jadi nilai tambah)
+  * Website ini memiliki beberapa skenario, yaitu:
+    + Welcome Page: Pengguna akan diarahkan ke halaman welcome ketika membuka web, dari sini pengguna dapat menuju halaman register atau halaman login.
+    + Login Page: Pengguna akan diminta untuk mengisi kolom "Username", "Password", dan mengaktifkan box "ingat saya". Jika benar, maka akan di arahkan ke laman "Home". Namun apabila pengguna terindikasi bahwa akun tersebut merupakan akun admin, saat login pengguna akan di arahkan menuju laman "Dashboard Admin"
+    + Register Page: Pengguna diminta untuk mengisi data diri berupa nama lengkap, alamat email, password, dan konfirmasi password. Akan ada peringatan apabila pengisian data tidak sesuai format. Jika berhasil data akan masuk ke database realtime aplikasi, dan akan di arahkan ke halaman "Home"
+    + Home page: Pengguna dapat melihat barang apa saja yang dapat dibeli dan bisa menambahkan barang tersebut ke dalam keranjang.
+    + Detail Produk: Pengguna dapat melihat rincian produk yang akan dibeli, rincian berupa stok, deskripsi, review dan foto produk.
+    + Keranjang: Pengguna dapat menempatkan barang barang yang ingin dibeli di dalam keranjang. Apabila pengguna menambahkan produk ke keranjang akan ada angka yang menunjukan jumlah barang yang ada di keranjang.
+    + Checkout: Pengguna dapat melihat ongkos kirim yang akan didapat apabila mengirim barang ke alamatnya dan melihat total harga dari barang + ongkir.
+    + History: Pengguna dapat melihat riwayat pembelanjaan yang telah mereka lakukan dan status pengiriman barang.
+    + History Detail: Pengguna dapat melihat rincian pembelanjaan dan mengunggah bukti pembayaran.
+    + Halaman Dashboard Admin: Admin dapat melihat pesanan yang masuk.
+    + Logout : Pengguna dapat keluar dari segala halaman yang terdapat pada sistem dan menuju ke login page.
+
+  | Id Pengujian | Skenario Tes Deskriptif | Positif/Negatif | Input | Output |
+  | :------------------ |:------------------ |:------------------ |:------------------ |:------------------ |
+  | Login1 | User dapat melakukan login menggunakan username/email dan password yang sesuai |Positif |Username/email dan password yang sesuai |Login ke Home Page |
+  | Login2 | User gagal melakukan login karena username/email atau password tidak sesuai |Negatif |Username/email dan password yang tidak sesuai |Peringatan bahwa username/email atau password salah |
+  | Regis1 |User mendaftarkan diri |Positif | Input nama lengkap, email, password dan konfirmasi password |Terdaftar dan masuk ke Home Page |
+  | Regis2 |User mendaftarkan diri tetapi ada data yang kosong/tidak diisi |Negatif | Email tidak di input |Peringatan pada kolom email | 
+  | Regis3 |User mendaftarkan akun baru dengan email yang sudah terdaftar |Negatif |Email yang digunakan sudah terdaftar |Peringatan menggunakan email yang lainnya |
+  | Updateprof1 |User ingin meng-update data diri |Positif |Mengganti data lama dengan data yang baru | Data diri ter-update |
+  | Upload1 | User ingin meng-upload gambar |Positif |User mengunggah foto |Foto ter-unggah |
+  | Confirm1 |Admin ingin mengkonfirmasi orderan |Positif |Validasi pembayaran |Orderan terkonfirmasi|
+  | Addtochart1 |User ingin menambahkan barang ke keranjang|Positif |User menambahkan barang ke keranjang |Barang masuk ke dalam keranjang|
+  | Addtochart2 |User ingin menambahkan barang ke keranjang melebihi stok barang yang tersedia |Negatif |User menambahkan barang melebihi stok yang tersedia|Peringatan stok tersedia|
+
 - Saran untuk pengembangan selanjutnya
   * Bagian upload pembayaran dikembangkan agar menjadi otomatis tanpa admin
   * Contact Person yang ingin dihubungi dibuat terhubung langsung menggunakan satu icon yang nantinya akan dialihkan ke contact person
+  * Jalur pembelian yang berbeda untuk merchandise dan aplikasi
+  * Kembangkan fitur yang belum berjalan dengan baik seperti search
+  * Mengintegrasikan shipping dengan RajaOngkir
+  * Menambahkan fitur pesan ke penjual
+  * Menambahkan fitur tambah barang di web admin
+
   
 
