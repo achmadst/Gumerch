@@ -1,136 +1,62 @@
-## Laporan akhir projek Gumerch
-- Nama sistem, Paralel, Kelompok, Nama Asisten Praktikum
-  *	Nama Sistem 		: Gumashop
-  *	Paralel Responsi 	: P3
-  *	Kelompok		: 2
-  *	Asisten Praktikum	: Qoriatul Khairunnisa dan Indah Puspita
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-- Nama anggota kelompok dan masing-masing role
-  *	Devi Auliasari | G54180008 | Front-End
-  *	Muhammad Al-Giffari | G54180056 | Back-End
-  *	Achmad Syarief Thalib | G54180059 | Project Manager dan Front-End
-  *	Rizki Nurul Amalia | G54180082 | UI/UX
-
-- Deskripsi singkat aplikasi
-  * Gumashop merupakan aplikasi e-commerce berbasis website yang digunakan untuk membantu proses penjualan dari proyek kerja Gumatika yaitu Gumashop. Gumashop dilengkapi dengan fitur jual-beli online, mulai dari pencarian produk, customer login, keranjang belanja, informasi kontak, dan lainnya.
-- User analysis 
-  * User story
-    + 	Sebagai user (costumer) yang memiliki akun, agar dapat melihat produk yang dipilih , saya dapat menekan gambar "keranjang" di pojok halaman. 
-    + 	Sebagai user (costumer) yang belum memiliki akun , agar dapat menambahkan produk ke keranjang, saya dapat melakukan register / login akun google. 
-    + 	Sebagai user (costumer) yang sudah menambahkan produk, agar dapat mengatur jumlah produk yang dipilih , saya dapat menekan gambar keranjang dan menyesuaikan tambah atau kurang jumlah produk yang dipilih. 
-    + 	Sebagai admin yang sudah Login ,agar dapat menambahkan produk , saya dapat meng-upload produk di website Gumastore. 
-    + 	Sebagai admin yang sudah Login ,agar dapat mengubah stok produk, saya dapat meng-update stok di website Gumastore. 
-    + 	Sebagai user baik yang sudah memiliki akun maupun yang belum memiliki akun, agar dapat melihat detail produk, saya dapat menekan foto yang tersedia di produk. 
-    + 	Sebagai user yang sudah memilih produk, agar dapat melanjutkan proses pembelian, saya dapat menekan tombol checkout. 
-    + 	Sebagai user yang sudah meng-checkout produk, agar dapat melakukan pembayaran , saya dapat memilih opsi pembayaran dan menambahkan bukti pembayaran. 
-    + 	Sebagai user (customer) yang memiliki akun,agar dapat mendapatkan informasi lebih lanjut , saya dapat menghubungi kontak admin yang tertera yang akan terintegrasi dengan platform "Whatsapp". 
-    + 	Sebagai admin yang bertanggung jawab atas pesanan costumer, agar dapat memproses pesanan , saya dapat mengecek informasi pemesanan dan validasi pembayaran. 
-    + 	Sebagai user yang sudah menerima produk sesuai pesanan, agar dapat memberikan apresiasi, saya dapat menambahkan komentar di bagian review produk. Sebagai user (costumer) yang memiliki akun ,agar dapat keluar dari website, saya dapat melakukan "Log out".
-
-- Spesifikasi teknis lingkungan pengembangan
-  * Software
-    + Framework : Vue Js dan Laravel
-    +	Database : MySQL
-    +	Server : Apache
-    +	Text Editor/IDE : Visual Studio Code atau Sublime Text 3 
-  * Hardware
-    +	Processor : AMD Ryzen 7 Core Clock hingga 2.9 GHz
-    +	Graphics Card : AMD Radeon Graphics 8GB VRAM Integrated
-    +	Memory : 16GB
-    +	Storage : 1TB
-  * Tech Stack
-    + Version Control dan Collaboration Platform : Github
-    +	Teknologi : CSS/HTML, Javascript, dan PHP
-
-- Hasil dan pembahasan 
-  * Use case diagram
-  
-   <p align="center">
-<a>
-<img src="https://github.com/achmadst/Gumerch/blob/main/use%20case%20diagram.jpg", width=400>
-</a>
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-  * Activity diagram 
-  
-  <p align="center">
-<a>
-<img src="https://github.com/achmadst/Gumerch/blob/main/WhatsApp%20Image%202021-06-11%20at%2003.10.44.jpeg", width=500>
-</a>
- 
- <a>
-<img src="https://github.com/achmadst/Gumerch/blob/main/WhatsApp%20Image%202021-06-11%20at%2003.10.44%20(1).jpeg", width=500>
-</a>
-</p>
+## About Laravel
 
-  * Class diagram 
-  
-  <p align="center">
-<a>
-<img src="https://github.com/achmadst/Gumerch/blob/main/Untitled%20Diagram.png", width=600>
-</a>
-</p>
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-  * Entity Relationship Diagram
- 
- <p align="center">
-<a>
-<img src="https://github.com/achmadst/Gumerch/blob/main/Untitled%20Diagram.png", width=600>
-</a>
-</p>
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-  * Arsitektur sistem 
-  
-  <p align="center">
-<a>
-<img src="https://github.com/achmadst/Gumerch/blob/main/arsitektur%20rpl.jpg", width=600>
-</a>
-</p>
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-  * Fungsi utama yang dikembangkan
-    +	Pencarian
-    +	Login
-    +	Tambah Keranjang
-    +	Tulis Review
-    +	Checkout
-  * Fungsi CRUD
-    +	Create : Tambahkan review, tambahkan keranjang
-    +	Read : Membaca Review, melihat detail produk, melihat list keranjang
-    +	Update : Mengubah jumlah produk
-    +	Delete : Menghapus produk dari keranjang
+## Learning Laravel
 
-- Hasil implementasi 
-  * Screenshot sistem
-      <p align="center">
-<a>
-<img src="https://github.com/achmadst/Gumerch/blob/main/Screenshot%20(75).png", width=600>
-</a>
- <a>
-<img src="https://github.com/achmadst/Gumerch/blob/main/Screenshot%20(76).png", width=600>
-</a>
- <a>
-<img src="https://github.com/achmadst/Gumerch/blob/main/Screenshot%20(77).png", width=600>
-</a>
- <a>
-<img src="https://github.com/achmadst/Gumerch/blob/main/Screenshot%20(78).png", width=600>
-</a>
- <a>
-<img src="https://github.com/achmadst/Gumerch/blob/main/Screenshot%20(79).png", width=600>
-</a>
- <a>
-<img src="https://github.com/achmadst/Gumerch/blob/main/Screenshot%20(80).png", width=600>
-</a>
- <a>
-<img src="https://github.com/achmadst/Gumerch/blob/main/Screenshot%20(81).png", width=600>
-</a>
-</p>
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-  * Link aplikasi (jika sudah di deploy)
-- Testing (Test cases)
-  * Positive Cases
-  * Negative Cases (Optional, jika ada jadi nilai tambah)
-- Saran untuk pengembangan selanjutnya
-  * Bagian upload pembayaran dikembangkan agar menjadi otomatis tanpa admin
-  * Contact Person yang ingin dihubungi dibuat terhubung langsung menggunakan satu icon yang nantinya akan dialihkan ke contact person
-  
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
+## Laravel Sponsors
+
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+
+### Premium Partners
+
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[OP.GG](https://op.gg)**
+
+## Contributing
+
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Code of Conduct
+
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
