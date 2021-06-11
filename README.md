@@ -1,6 +1,6 @@
 ## Laporan akhir projek Gumerch
 - Nama sistem, Paralel, Kelompok, Nama Asisten Praktikum
-  *	Nama Sistem 		: Gumastore
+  *	Nama Sistem 		: Gumashop
   *	Paralel Responsi 	: P3
   *	Kelompok		: 2
   *	Asisten Praktikum	: Qoriatul Khairunnisa dan Indah Puspita
@@ -12,7 +12,7 @@
   *	Rizki Nurul Amalia | G54180082 | UI/UX
 
 - Deskripsi singkat aplikasi
-  * Gumastore merupakan aplikasi e-commerce berbasis website yang digunakan untuk membantu proses penjualan Gumashop. Gumastore dilengkapi dengan fitur jual-beli online, mulai dari pencarian produk, customer login, keranjang belanja, informasi kontak, dan lainnya.
+  * Gumashop merupakan aplikasi e-commerce berbasis website yang digunakan untuk membantu proses penjualan dari proyek kerja Gumatika yaitu Gumashop. Gumashop dilengkapi dengan fitur jual-beli online, mulai dari pencarian produk, customer login, keranjang belanja, informasi kontak, dan lainnya.
 - User analysis 
   * User story
     + 	Sebagai user (costumer) yang memiliki akun, agar dapat melihat produk yang dipilih , saya dapat menekan gambar "keranjang" di pojok halaman. 
